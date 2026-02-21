@@ -13,7 +13,7 @@ model = PeftModel.from_pretrained(base_model ,'sentiment_analysis/trained_model/
 
 model.eval()
 
-text = 'the movie was good and many people were shouting and celebrating the end '
+text = 'people where gossping about the movie even after 2 hours , the movie created very big impact and reach worlwide '
 
 input = tokenizer(
     text,
